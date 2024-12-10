@@ -1,0 +1,107 @@
+/* Este é um comentário no CSS */
+
+/* Seleciona todos os elementos de corpo da página e aplica um estilo */
+body {
+    font-family: Arial, sans-serif; /* Fonte usada no corpo da página */
+    background-color: #030303; /* Cor de fundo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o header */
+header {
+    background-color: #333; /* Cor de fundo escura para o header */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo para os links do menu */
+nav ul {
+    list-style: none; /* Remove o marcador de lista */
+    padding: 0;
+    text-align: center; /* Alinha os links no centro */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 10px; /* Adiciona espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Torna o texto em negrito */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.centralizada {
+    display: block;     /* Torna a imagem um bloco */
+    margin-left: auto;  /* Margem automática à esquerda */
+    margin-right: auto; /* Margem automática à direita */
+}
+
+section {
+    padding: 20px; /* Espaçamento interno */
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones */
+    gap: 20px;  /* Espaço entre os ícones */
+}
+
+.social-media a img {
+    width: 40px;   /* Ajuste o tamanho conforme necessário */
+    height: 40px;  /* Ajuste o tamanho conforme necessário */
+    transition: transform 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.social-media a:hover img {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+form {
+    background-color: white; /* Cor de fundo para o formulário */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+}
+
+label {
+    display: block; /* Exibe os rótulos como blocos */
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+}
+
+input, textarea {
+    width: 100%; /* Faz os campos ocuparem toda a largura */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Cor da borda */
+}
+
+button {
+    padding: 10px 20px; /* Tamanho do botão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Cursor de mão ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #555; /* Cor do botão quando o cursor passa sobre ele */
+}
