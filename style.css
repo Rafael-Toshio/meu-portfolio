@@ -1,110 +1,125 @@
 /* Estilos básicos */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Define a fonte principal do site */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    background-color: #f4f4f4; /* Define uma cor de fundo clara */
 }
 
+/* Estilo do cabeçalho (header) */
 header {
-    background-color: #000000;
-    color: white;
-    padding: 30px;
-    text-align: center;
+    background-color: #000000; /* Cor de fundo preta para o cabeçalho */
+    color: white; /* Texto branco no cabeçalho */
+    padding: 30px; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Alinha o texto no centro */
 }
 
+/* Estilo do menu de navegação */
 nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+    list-style: none; /* Remove as marcas de lista (como os pontos) */
+    padding: 0; /* Remove o padding */
+    text-align: center; /* Alinha os itens do menu ao centro */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline; /* Exibe os itens do menu em linha */
+    margin: 0 10px; /* Adiciona espaçamento entre os itens */
 }
 
 nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+    color: black; /* Define a cor do texto como preto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
 }
 
+/* Estilo das imagens */
 img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    margin: 10px 0;
+    max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho da tela */
+    height: auto; /* Mantém a proporção das imagens */
+    border: 2px solid #ddd; /* Borda cinza clara em torno das imagens */
+    border-radius: 10px; /* Cantos arredondados nas imagens */
+    margin: 10px 0; /* Espaçamento em cima e embaixo das imagens */
 }
 
+/* Definições de layout para o corpo */
 body {
-    margin: 0;
-    height: 100vh;
-    background-color: #f0f0f0;
+    margin: 0; /* Remove a margem do corpo */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da tela */
+    background-color: #f0f0f0; /* Define uma cor de fundo clara */
 }
 
+/* Estilo para centralizar imagens */
 .centralizada {
-    float: right;   /* Move a imagem para a direita */
-    margin-right: 40px; /* Adiciona um espaço à direita */
+    float: right; /* Move a imagem para a direita */
+    margin-right: 40px; /* Adiciona um espaço à direita da imagem */
     max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da tela */
-    height: auto;    /* Mantém a proporção da imagem */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
+/* Estilo das seções principais */
 section {
-    padding: 50px;
+    padding: 50px; /* Adiciona um espaçamento interno ao redor do conteúdo */
 }
 
+/* Estilo do rodapé */
 footer {
-    color: white;
-    text-align: left;
-    padding: 20px;
+    color: white; /* Texto branco no rodapé */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 20px; /* Espaçamento interno no rodapé */
 }
 
+/* Estilo para a área de redes sociais */
 .social-media {
-    display: flex;
-    justify-content: left; /* Centraliza os ícones */
-    gap: 20px;  /* Espaço entre os ícones */
+    display: flex; /* Utiliza o modelo de layout flexível */
+    justify-content: left; /* Alinha os ícones à esquerda */
+    gap: 20px; /* Espaço entre os ícones */
 }
 
+/* Estilo para os ícones de redes sociais */
 .social-media a img {
-    width: 40px;   /* Ajuste o tamanho conforme necessário */
-    height: 40px;  /* Ajuste o tamanho conforme necessário */
-    transition: transform 0.3s; /* Efeito de transição ao passar o mouse */
+    width: 40px; /* Define o tamanho dos ícones */
+    height: 40px; /* Define o tamanho dos ícones */
+    transition: transform 0.3s; /* Efeito de transição suave ao passar o mouse */
 }
 
+/* Efeito ao passar o mouse sobre os ícones das redes sociais */
 .social-media a:hover img {
     transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
 }
 
+/* Estilo do formulário */
 form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Cor de fundo branca para o formulário */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas no formulário */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para o formulário */
 }
 
+/* Estilo para os rótulos (labels) no formulário */
 label {
-    display: block;
-    margin-bottom: 5px;
+    display: block; /* Exibe o rótulo como um bloco */
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
 }
 
+/* Estilo para campos de entrada e área de texto */
 input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    width: 100%; /* O campo ocupa toda a largura disponível */
+    padding: 10px; /* Espaçamento interno nos campos */
+    margin-bottom: 15px; /* Espaço abaixo dos campos */
+    border-radius: 5px; /* Bordas arredondadas nos campos */
+    border: 1px solid #ccc; /* Borda cinza clara */
 }
 
+/* Estilo para o botão de envio */
 button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
+    padding: 10px 20px; /* Espaçamento interno no botão */
+    background-color: #333; /* Cor de fundo escura para o botão */
+    color: white; /* Texto branco no botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Aponta o cursor como uma mão quando sobre o botão */
 }
 
+/* Efeito de hover no botão */
 button:hover {
-    background-color: #000000;
+    background-color: #000000; /* Cor de fundo mais escura ao passar o mouse */
 }
