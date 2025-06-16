@@ -1,6 +1,7 @@
 /* Estilos básicos */
 body {
-    font-family: Arial, sans-serif; /* Define a fonte principal do site */
+    font-family: Poppins, sans-serif; /* Define a fonte principal do site */
+    font-size: 17px;
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
     background-color: #f4f4f4; /* Define uma cor de fundo clara */
@@ -8,6 +9,8 @@ body {
 
 /* Estilo do cabeçalho (header) */
 header {
+    font-family: Oswald, sans-serif;
+    font-size: 17px;
     background-color: #000000; /* Cor de fundo preta para o cabeçalho */
     color: white; /* Texto branco no cabeçalho */
     padding: 30px; /* Espaçamento interno do cabeçalho */
@@ -27,6 +30,8 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
     color: black; /* Define a cor do texto como preto */
     text-decoration: none; /* Remove o sublinhado dos links */
     font-weight: bold; /* Deixa o texto em negrito */
@@ -36,7 +41,7 @@ nav ul li a {
 img {
     max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho da tela */
     height: auto; /* Mantém a proporção das imagens */
-    border: 2px solid #ddd; /* Borda cinza clara em torno das imagens */
+    border: 0px solid #ddd; /* Borda cinza clara em torno das imagens */
     border-radius: 10px; /* Cantos arredondados nas imagens */
     margin: 10px 0; /* Espaçamento em cima e embaixo das imagens */
 }

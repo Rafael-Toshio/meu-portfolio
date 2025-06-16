@@ -2,7 +2,8 @@
 
 /* Seleciona todos os elementos de corpo da página e aplica um estilo */
 body {
-    font-family: Arial, sans-serif; /* Fonte usada no corpo da página */
+    font-family: Oswald, sans-serif; /* Fonte usada no corpo da página */
+    font-size: 20px;
     background-color: #030303; /* Cor de fundo */
     margin: 0;
     padding: 0;
@@ -29,6 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: Poppins, sans-serif;
     color: white; /* Cor dos links */
     text-decoration: none; /* Remove o sublinhado */
     font-weight: bold; /* Torna o texto em negrito */
@@ -37,9 +39,9 @@ nav ul li a {
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #000000;
+    border: 0px solid #000000;
     border-radius: 10px;
-    margin: 10px 0;
+    margin: 0px 0;
 }
 
 .centralizada {
@@ -61,7 +63,7 @@ footer {
 .social-media {
     display: flex;
     justify-content: center; /* Centraliza os ícones */
-    gap: 20px;  /* Espaço entre os ícones */
+    gap: 100px;  /* Espaço entre os ícones */
 }
 
 .social-media a img {
